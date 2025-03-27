@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="birthday-card">
+        <h1>🎉 Happy Birthday, Prachiti! 🎂</h1>
+        <p class="subtitle">Wishing you a year full of happiness, success, and love! And yeah it's too late to aske how is your leg doing as you said that you got hurt so I hope its doing fine. Would feel great to hear from you❤️</p>
+
+        <div class="image-container">
+            <img src="img/birthday-girl.jpg" alt="Birthday Celebration">
+        </div>
+
+        <p id="hidden-message" class="hidden-message">🎈 Surprise! May all your dreams come true! 🎈</p>
+        <button onclick="revealMessage()">Click for a Surprise 🎁</button>
+
+        <div class="birthday-countdown">
+            <p class="countdown-text">Your birthday is in:</p>
+            <div id="countdown"></div>
+        </div>
+
+        <button id="musicButton" onclick="toggleMusic()">Play 🎶 / Pause ⏸️</button>
+
+        <audio id="birthdayMusic" loop>
+            <source src="audio/Happy Birthday Mambo - E's Jammy Jams.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
